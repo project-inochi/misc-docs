@@ -73,29 +73,23 @@
 ==== CPU性能及其度量因素
 
 [stem]
---
-\begin{align}
+++++
 程序的CPU执行时间 = 程序的CPU时钟数 \times 时钟周期时间
-\end{align}
---
+++++
 
 ==== 指令性能
 
 [stem]
---
-\begin{align}
+++++
 CPU时钟周期数 = 程序的指令数 \times 指令平均时钟周期数（CPI）
-\end{align}
---
+++++
 
 ==== 经典CPU性能公式
 
 [stem]
---
-\begin{align}
+++++
 CPU时间 = 指令数 \times 指令平均时钟周期数（CPI）\times 时钟周期时间
-\end{align}
---
+++++
 
 ==== 性能的测量、报告和汇总
 
@@ -104,11 +98,9 @@ CPU时间 = 指令数 \times 指令平均时钟周期数（CPI）\times 时钟�
 |服务器基准测试|事务处理基准测试
 |性能测试结果 2+a|
 [stem]
---
-\begin{align}
+++++
 SPECRatio = \frac{基准计算机上的执行时间}{待评估计算机上的执行时间}
-\end{align}
---
+++++
 |===
 
 === 计算机的发展方向
